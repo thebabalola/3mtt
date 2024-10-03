@@ -1,0 +1,114 @@
+/* Default body CSS rule set */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+	color: #333;
+	line-height: 1.6;
+	font-size: 16px;
+	box-sizing: border-box;
+  }
+  
+  
+  /* ========== 1. Selectors and Styling ========== */
+  
+  /* Element Selector */
+  p {
+	color: blue;
+  }
+  
+  /* Class Selector */
+  .myClass {
+	background-color: yellow;
+	padding: 10px;
+  }
+  
+  /* ID Selector */
+  #myID {
+	font-size: 20px;
+	font-weight: bold;
+  }
+  
+  /* Pseudo-class Selector (hover effect for links) */
+  a:hover {
+	color: red;
+	text-decoration: underline;
+  }
+  
+  /* Descendant Selector */
+  div p {
+	margin: 10px;
+	color: green;
+  }
+  
+  /* Sibling Selector */
+  h1 + p {
+	font-style: italic;
+  }
+  
+  
+  /* ========== 2. Responsive Design ========== */
+  
+  /* Mobile View */
+  @media (max-width: 600px) {
+	body {
+	  font-size: 14px;
+	  background-color: #f0f0f0;
+	}
+  }
+  
+  /* Tablet View */
+  @media (min-width: 601px) and (max-width: 900px) {
+	body {
+	  font-size: 18px;
+	  background-color: #e0e0e0;
+	}
+  }
+  
+  /* Desktop View */
+  @media (min-width: 901px) {
+	body {
+	  font-size: 22px;
+	  background-color: #ffffff;
+	}
+  }
+  
+  
+  /* ========== 3. Flexbox Layout ========== */
+  
+  .flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fafafa;
+  }
+  
+  .flex-container .header,
+  .flex-container .content,
+  .flex-container .footer {
+	padding: 20px;
+	width: 80%;
+	text-align: center;
+  }
+  
+  .flex-container .header {
+	background-color: #333;
+	color: white;
+  }
+  
+  .flex-container .content {
+	background-color: #f4f4f4;
+  }
+  
+  .flex-container .footer {
+	background-color: #ccc;
+  }
+  
+  
+  /* ========== 4. Grid Layout ========== */
+  
+  .grid-container {
+	display: grid;
+	grid-template-rows: auto 
+  }

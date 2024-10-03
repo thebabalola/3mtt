@@ -1,0 +1,270 @@
+/* Global styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+/* Header styling */
+header {
+    background-color: #FFFFFF; 
+    padding: 10px 20px; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+}
+
+.logo {
+    color: black;
+    font-size: 24px; 
+    text-decoration: none; 
+}
+
+.nav-links {
+    list-style-type: none; 
+    display: flex; 
+}
+
+.nav-links li {
+    margin: 0 15px; 
+}
+
+.nav-links a {
+    color: black; /* Navigation links color */
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.nav-links a:hover {
+    color: #ff9800; 
+}
+
+.button {
+    background-color: #ffae00; 
+    color: #fff; /* Button text color is white */
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+.button:hover {
+    background-color: #e68900; 
+}
+
+
+/* Hero styling */
+.hero {
+    display: flex;
+    padding: 80px 20px;
+    background-color: #fff;
+    min-height: 400px;
+}
+
+.container {
+    flex: 0 0 55%;
+    text-align: center;
+}
+
+.image {
+    flex: 0 0 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    line-height: 1.4; 
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ffae00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.image img {
+    max-width: 95%;
+    height: auto;
+	border-radius: 15px;
+}
+
+
+/* Client Section */
+.client-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    background-color: #fff;
+    margin: 40px 0;
+    border: 0;
+}
+
+.logo-container img {
+    margin: 0 30px;
+    width: 70px;
+}
+
+/* Why Choose ALT Group Section */
+.alt-group-section {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.alt-group-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.feature-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item img {
+    width: 20px;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+.feature-item h3 {
+    margin-bottom: 10px;
+}
+  
+/* Traffic, Conversion & Sales Srction Styling */
+.traffic-sales {
+    background-color: #f0f4f8;
+    padding: 50px 0;
+}
+
+.traffic-sales h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.traffic-sales .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.traffic-sales .content .text, 
+.traffic-sales .content .image {
+    flex: 1 1 48%;
+    margin-bottom: 20px;
+}
+
+.traffic-sales .content .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Partners Logos Section Styling */
+.partners {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.partners ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.partners ul li {
+    display: inline;
+}
+
+.partners ul li img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Testimonials Styling */
+.testimonials {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials blockquote {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonials cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
