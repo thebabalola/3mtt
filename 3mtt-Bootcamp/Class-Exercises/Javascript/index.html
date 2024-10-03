@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Js Document</title>
+</head>
+<body>
+	<!-- the onclick event listerner calls a function -->
+	<h1 onmouseover="shoutOut()">I dey learn Javascript</h1>  
+	<h3 onclick="youClicked()">You don need to hover here</h3>
+
+
+	<!-- DOM Manipulation -->
+	 <h2 class="classOf">Let do Classes</h2>
+	 <h5 id="text">And DOM Manipulation</h5>
+
+	 <button id="btn">Click Me</button>
+	 <br>
+
+	<!-- Linking external javascript file -->
+	<script src="./app.js"></script>
+	<script src="./event.js"></script>
+	<script src="./dom.js"></script>
+
+	<!-- Internal javascript adviceable to be at the bottom -->
+	<script>
+		console.log('Hello World!')
+		document.write('Hello Javascript')  // writes directly to the screen of the webpage, like html
+	</script> 
+</body>
+</html>
