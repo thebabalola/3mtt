@@ -1,0 +1,225 @@
+/* Global styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* Header styling */
+header {
+    background-color: #FFFFFF; 
+    padding: 10px 20px; 
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Logo on the left, nav links on the right */
+    align-items: center; 
+}
+
+.logo {
+    color: black;
+    font-size: 24px; 
+    text-decoration: none; 
+}
+
+.nav-links {
+    list-style-type: none; 
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px; /* Space between nav items */
+}
+
+.nav-links a {
+    color: black; /* Navigation links color */
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.nav-links a:hover {
+    color: #ff9800; 
+}
+
+.button {
+    background-color: #ffae00; 
+    color: #fff; /* Button text color is white */
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+.button:hover {
+    background-color: #e68900; 
+}
+
+/* Hero styling */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    padding: 80px 20px;
+    background-color: #fff;
+    min-height: 400px;
+    gap: 20px; /* Space between text and image */
+}
+
+.container {
+    text-align: center;
+}
+
+.image {
+    display: grid;
+    place-items: center; /* Center the image */
+}
+
+.hero h2 {
+    font-size: 36px;
+    line-height: 1.4; 
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ffae00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.image img {
+    max-width: 95%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Client Section */
+.client-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Make it responsive */
+    gap: 20px;
+    padding: 40px 50px;
+    background-color: #fff;
+}
+
+.logo-container img {
+    margin: 0 auto;
+    width: 70px;
+}
+
+/* Why Choose ALT Group Section */
+.alt-group-section {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.alt-group-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.feature-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-item img {
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Traffic, Conversion & Sales Section Styling */
+.traffic-sales {
+    background-color: #f0f4f8;
+    padding: 50px 0;
+}
+
+.traffic-sales h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.traffic-sales .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.traffic-sales .content .text, 
+.traffic-sales .content .image {
+    margin-bottom: 20px;
+}
+
+.traffic-sales .content .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Partners Logos Section Styling */
+.partners {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.partners ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.partners ul li {
+    display: inline;
+}
+
+.partners ul li img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Testimonials Styling */
+.testimonials {
+    background-color: #fff;
+    padding
+}
